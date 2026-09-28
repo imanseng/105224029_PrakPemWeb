@@ -25,8 +25,21 @@ Tabel versi perangkat dan lingkungan pengembangan yang digunakan:
 * cd0a7c5 chore: inisialisasi proyek Next.js dan struktur modul 1
 * 52482e5 first commit
 
-- Tautan pull request yang telah digabungkan
-- Konflik yang terjadi, cara penyelesaian, dan alasan pemilihan isi akhir
+### Pull Request
+https://github.com/imanseng/105224029_PrakPemWeb/pull/1
+
+
+### Penjelasan Bagian 2
+Konflik yang Terjadi: Konflik terjadi pada berkas README.md pada baris teks yang sama. Hal ini dipicu karena ada dua branch berbeda, yaitu branch main dan branch testing/conflict, yang melakukan perubahan/modifikasi secara bersamaan pada baris teks yang sama. Git tidak dapat menentukan isi teks mana yang benar secara otomatis sehingga menandai berkas tersebut berstatus CONFLICT.
+
+Cara Penyelesaian:
+- Membuka berkas README.md melalui VS Code.
+- Meninjau blok kode yang berkonflik yang ditandai oleh penanda Git: <<<<<<< HEAD (perubahan dari branch main), ======= (pemisah), dan >>>>>>> testing/conflict (perubahan dari branch yang digabungkan).
+- Memilih Current Changes, yaitu mempertahankan perubahan terakhir/head atau dari branch main.
+- Menandai berkas yang sudah bersih dari konflik menggunakan perintah git add di terminal.
+- Mengakhiri proses merge dengan membuat commit baru menggunakan perintah git commit -m dan push ke remote github.
+
+Alasan Pemilihan Isi Akhir: Isi akhir dipilih dengan mempertahankan poin-poin dari branch main (Accept Incoming Changes) agar informasi mengenai konteks deskripsi pesan di README.md jelas dan sesuai dengan latihan conflict.   
 
 ## 3. Pengamatan Lalu Lintas HTTP
 - Lembar kerja pengamatan (Tabel 9) beserta tangkapan layar DevTools
