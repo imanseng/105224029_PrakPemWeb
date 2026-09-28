@@ -16,7 +16,15 @@ Tabel versi perangkat dan lingkungan pengembangan yang digunakan:
 | **Visual Studio Code** | 1.139.1 |
 
 ## 2. Alur Kerja Git
-- Keluaran git log --oneline --graph
+### Riwayat Git (git log)
+*   ccdb8b8 (HEAD -> main, origin/main) merge: selesaikan konflik fileREADME.md
+|\  
+| * 8a3dd24 docs: menambah isi README.md
+* | 0938e2e docs: menambah isi README.md di branch main
+|/  
+* cd0a7c5 chore: inisialisasi proyek Next.js dan struktur modul 1
+* 52482e5 first commit
+
 - Tautan pull request yang telah digabungkan
 - Konflik yang terjadi, cara penyelesaian, dan alasan pemilihan isi akhir
 
