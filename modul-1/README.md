@@ -37,3 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Perubahan Conflict Dari Branch Main
 Ini commit perubahan dari branch main untuk melakukan test conflict Bagian 2 praktikum modul 1.
+
+## Tambah Lagi Isi ReadMe ini untuk Latihan Pull Request
+Ya begitulah
