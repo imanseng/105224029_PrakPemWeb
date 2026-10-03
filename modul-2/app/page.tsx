@@ -44,7 +44,8 @@ export default function Beranda() {
               <li key={f.judul}>
                 <article className="h-full rounded-lg border p-6">
                   <h3 className="text-lg font-semibold">{f.judul}</h3>
-                  <p className="mt-2 text-gray-700">{f.deskripsi}</p>
+                  {/* PERBAIKAN 1: Mengubah text-gray-700 menjadi text-gray-300 agar kontras dengan latar belakang gelap */}
+                  <p className="mt-2 text-gray-300">{f.deskripsi}</p>
                 </article>
               </li>
             ))}
@@ -79,7 +80,8 @@ export default function Beranda() {
                 aria-describedby="email-bantuan"
                 className={kolom}
               />
-              <p id="email-bantuan" className="text-sm text-gray-600">
+              {/* PERBAIKAN 2: Mengubah text-gray-600 menjadi text-gray-400 agar teks bantuan mudah dibaca pada layar gelap */}
+              <p id="email-bantuan" className="text-sm text-gray-400">
                 Gunakan alamat surel yang aktif.
               </p>
             </div>
@@ -113,7 +115,8 @@ export default function Beranda() {
           </section>
           <aside
             aria-label="Informasi tambahan"
-            className="rounded-lg bg-gray-100 p-6"
+            className="rounded-lg bg-gray-100 p-6 text-gray-900" 
+            /* Catatan: Tambahkan text-gray-900 jika aside memiliki latar terang (bg-gray-100) */
           >
             ...
           </aside>
